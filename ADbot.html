@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <title>Product Name Generator </title>
+    <link href="./css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/custom.css">
+  </head>
+  <body class="theme-bg-primary">
+    <video autoplay loop class="back-video" muted plays-inline>
+      <source src="./videos/videobackground3.mp4" type="video/mp4">
+  </video>
+
+  <nav>
+      <img src="./img/openai.png" class="logo"> 
+  </nav>
+    <div class="content p-8 mt-4 text-center">
+
+    <div>
+      <h1 class="h1 fw-bold text-center text-white mb-5">Product Advertiser</h1>
+      <form id="form_sentence" class="mb-5">
+        <input name="sentence" placeholder="&#x270E; What is your product?">
+      
+        <button type="submit">Generate</button>
+        <p class="info-text text-white" id="info-text">Press Enter to Generate</p>
+      </form>
+      <div class="response-container fw-bold text-white" id="response-container">
+        <label for="sentence_corrected ">Result:</label><br>  
+        <textarea id="sentence_corrected" class="typewriter" rows="9" cols="70"></textarea>
+    </div>
+    
+    
+    <script src="./js/bootstrap/bootstrap.bundle.min.js" ></script>
+    <script src="./js/renderer.js"></script>
+  </body>
+ 
+</html>

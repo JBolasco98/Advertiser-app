@@ -1,0 +1,175 @@
+
+
+
+.theme-bg-surface{
+    background-color: #72303076 !important;
+}
+
+.theme-bg-primary{
+    background-color: #080808 !important;
+}
+
+.theme-bg-secondary{
+    background-color: #19A7CE !important;
+}
+
+.theme-bg-tertiary{
+    background-color: #1c5a78 !important;
+}
+
+.theme-bg-text{
+    color: #146C94 !important;
+}
+
+.form-textarea{
+    height: 125px !important;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    padding: 30px;
+    border-radius: 7px;
+    width: 90%;
+    margin: 10px;
+    max-width: 450;
+    text-align: center;
+    
+}
+
+.heading{
+    font-size: 50px;
+}
+
+.content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    max-width: 900px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color:#fff;
+    padding-top: 80px;
+}
+.content h1{
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.content form input{
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+    font-size: 18px;
+    height: 53px;
+    width: 300px;
+    border-radius: 8px;
+}
+.content form button{
+    background: #5416ab;
+    color: #fff;
+    padding: 15px 40px;
+    border: none;
+    border-radius:6px;
+    cursor: pointer;
+}
+.response-container{
+    display: none;
+}
+
+.text-center {
+    text-align: center;
+  }
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  .logo{
+    width: 240px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.back-video{
+    position: absolute;
+    right: 0;
+    top: -70;
+    min-width: 20%;
+    min-height: 20%;
+    width: auto;
+    height: auto;
+    z-index: -10;
+}
+@media(min-aspect-ratio:16/9){
+    .back-video{
+        width:auto;
+        height: 200%; 
+    }
+}
+@media(max-aspect-ratio:16/9){
+    .back-video{
+        width:200%;
+        height: auto; 
+    }
+}
+
+
+/* GLOBAL STYLES */
+body {
+    background: #333;
+    padding-top: 5em;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* DEMO-SPECIFIC STYLES */
+  .typewriter {
+    color: #fff;
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+   white-space: normal; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+  }
+
+textarea {
+    color: rgb(255, 255, 255);
+    background: rgba(137, 66, 218, 0.5);
+    padding: 20px;
+    border-radius: 15px;
+    width: 90%;
+    text-align: end;
+       
+
+ 
+  }
+
+
+
+

@@ -1,0 +1,17 @@
+body {
+    background-image: url('./image/background3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 30px;
+    
+  }
+
+
+div.card {
+  background-color: rgb(215, 215, 219);
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  flex-direction: column;
+
+}

@@ -1,0 +1,21 @@
+@keyframes example {
+    0% {background-color: rgba(55, 14, 236, 0.5);}
+    50% {background-color: rgba(247, 0, 0, 0.3);}
+    100% {background-color: rgba(3, 248, 101, 0.3);}
+  }
+  
+
+
+div.container{
+    animation-name: example;
+    animation-duration: 0.5s;
+    animation-iteration-count: 100;
+}
+div.containerr {
+   background-color: aliceblue;
+    padding: 20px;
+    border-radius: 15px;
+    width: 100%;
+    text-align: center;
+  
+  }

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <title>Grammar Correction Unfinish!</title>
+    <link href="./css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/GramCor.css">
+  </head>
+
+  <h1>Grammar Correction Unfinish!</h1>
+
+  <div>
+    <form id="">
+        <label for="sentence">Sentence</label><br>
+        <textarea name="sentence" rows="4"></textarea><br>
+        <input type="submit" value="Submit"><br>
+        <p class="info-text text-white" id="info-text">Press Enter to Generate</p>
+    </form>
+    <br>
+    <div id="response-container">
+        <label for="sentence_corrected">Corrected sentence</label><br>
+        <textarea id="sentence_corrected" rows="4" readonly></textarea>
+    </div>
+  </div>
+  <script src="./js/bootstrap/bootstrap.bundle.min.js" ></script>
+  <script src="./js/GramCor.js"></script>
+</html>
